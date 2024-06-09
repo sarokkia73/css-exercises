@@ -13,7 +13,26 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
+
+.right {
+  margin: 16px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  flex-basis: auto;
+}
+
+.left {
+  margin: 16px;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  flex-basis: auto;
+}
+
 
 .profile-image {
   background: rebeccapurple;
